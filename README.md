@@ -1,10 +1,12 @@
+#Serial Sniffer!
+
 This python script can be used to create a virtual device on your unix machine,
 and this virtual device can be used to monitor the activities of serial communication
 between any two devices
 
 Format,
 
-#python serial_sniffer.py <device file> <baudrate>
+python serial_sniffer.py <device file> <baudrate>
 
 where device file can be like /dev/ttyUSB0,/dev/ttyUSB1,/dev/ttyACM0 etc
 
