@@ -6,14 +6,14 @@ between any two devices
 
 Format,
 
-python serial_sniffer.py <device file> <baudrate>
+python serial_sniffer.py device_file baudrate
 
 where device file can be like /dev/ttyUSB0,/dev/ttyUSB1,/dev/ttyACM0 etc
 
 Above command will create a virtual device on your machine.
 Output of above command will be,
 
-"Configured to virtual device <some_name>"
+"Configured to virtual device some_name"
 
 Now all you have to do is communicate your data with the virtual device created as
 if it is the real device.
